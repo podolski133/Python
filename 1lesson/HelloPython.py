@@ -61,7 +61,24 @@
 # is, is not, in, not in
 # gen
 
-func = 1
-T = 4
-x = 2
-print(func<T>(x))
+# func = 1
+# T = 4
+# x = 2
+# print(func<T>(x))
+
+# f = 1 > 2 or 4 < 6
+# print(f)
+
+# f = [1,2,3,4]
+# print(f)
+## print(2 in f) # содержание 2 в списке f (результат True)
+# print(not 2 in f) # либо отрицание 2
+# проверяем факт четности числа:
+# is_odd = f[0] % 2 == 0 # находим остаток от деления на 2 равен (==) 0
+# print(is_odd) # будет False так как 1 не чётная
+
+# либо через отрицания not так:
+
+f = [1,2,3,4]
+is_odd = not f[0] % 2 
+print(is_odd) # будет False так как 1 не чётная
