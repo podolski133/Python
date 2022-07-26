@@ -217,5 +217,5 @@ def f(x):
     else:
         return
 
-arg = 2.3
-print(type(f(arg)))
+# arg = 2.3
+# print(type(f(arg)))
